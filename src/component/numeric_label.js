@@ -1,5 +1,9 @@
 import React, { Component } from 'react';
 
+var Intl = require('intl');
+require('intl/locale-data/jsonp/en-US');
+require('intl/locale-data/jsonp/de-DE');
+
 const NumericLabel = (props) => {
 
   const nFormatter = (num, minValue) => {
